@@ -6,30 +6,57 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BE34156D2DDCAB3B002007EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3415642DDCAB3B002007EF /* Assets.xcassets */; };
+		BE34156F2DDCAB3B002007EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3415672DDCAB3B002007EF /* LaunchScreen.storyboard */; };
+		BE3415712DDCAB3B002007EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3415632DDCAB3B002007EF /* AppDelegate.swift */; };
+		BE3415722DDCAB3B002007EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE34156A2DDCAB3B002007EF /* SceneDelegate.swift */; };
+		BE3415732DDCAB3B002007EF /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE34156B2DDCAB3B002007EF /* HomeController.swift */; };
+		BE3415752DDCAB4C002007EF /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3415742DDCAB4A002007EF /* DotView.swift */; };
+		BE3415772DDCACCC002007EF /* DotAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3415762DDCACCC002007EF /* DotAnimationVC.swift */; };
+		BE34157C2DDCAD29002007EF /* DotAnimationVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE34157B2DDCAD29002007EF /* DotAnimationVC.storyboard */; };
+		BE3415822DDCAE4A002007EF /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3415812DDCAE4A002007EF /* TableViewCell.xib */; };
+		BE3415832DDCAE4A002007EF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3415802DDCAE4A002007EF /* TableViewCell.swift */; };
+		BE3415852DDCB162002007EF /* HomeController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3415842DDCB162002007EF /* HomeController.storyboard */; };
+		BE3415872DDCB604002007EF /* DotAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3415862DDCB603002007EF /* DotAnimationView.swift */; };
+		BE34158B2DDCB98B002007EF /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE34158A2DDCB98A002007EF /* PulseView.swift */; };
+		BE34158D2DDCB99F002007EF /* PulseContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE34158C2DDCB99F002007EF /* PulseContainerView.swift */; };
+		BE3415902DDCBA4E002007EF /* PulseAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE34158F2DDCBA4E002007EF /* PulseAnimationVC.swift */; };
+		BE3415922DDCBA5B002007EF /* PulseAnimationVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3415912DDCBA5B002007EF /* PulseAnimationVC.storyboard */; };
+		BE3415952DDCC209002007EF /* ArcSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3415942DDCC208002007EF /* ArcSpinnerView.swift */; };
+		BE3415982DDCC22C002007EF /* ArcSpinnerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3415972DDCC22C002007EF /* ArcSpinnerVC.swift */; };
+		BE34159A2DDCC24D002007EF /* ArcSpinnerVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3415992DDCC24D002007EF /* ArcSpinnerVC.storyboard */; };
+		BE34159D2DDCC403002007EF /* TailDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE34159C2DDCC402002007EF /* TailDotsView.swift */; };
+		BE3415A02DDCC541002007EF /* TailDotsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE34159F2DDCC541002007EF /* TailDotsVC.swift */; };
+		BE3415A22DDCC558002007EF /* TailDotsVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3415A12DDCC558002007EF /* TailDotsVC.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BE34154B2DDCAB34002007EF /* Dont Animation Loading Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dont Animation Loading Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3415632DDCAB3B002007EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE3415642DDCAB3B002007EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE3415652DDCAB3B002007EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3415662DDCAB3B002007EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE34156A2DDCAB3B002007EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE34156B2DDCAB3B002007EF /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		BE3415742DDCAB4A002007EF /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		BE3415762DDCACCC002007EF /* DotAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotAnimationVC.swift; sourceTree = "<group>"; };
+		BE34157B2DDCAD29002007EF /* DotAnimationVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DotAnimationVC.storyboard; sourceTree = "<group>"; };
+		BE3415802DDCAE4A002007EF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BE3415812DDCAE4A002007EF /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		BE3415842DDCB162002007EF /* HomeController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeController.storyboard; sourceTree = "<group>"; };
+		BE3415862DDCB603002007EF /* DotAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotAnimationView.swift; sourceTree = "<group>"; };
+		BE34158A2DDCB98A002007EF /* PulseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
+		BE34158C2DDCB99F002007EF /* PulseContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseContainerView.swift; sourceTree = "<group>"; };
+		BE34158F2DDCBA4E002007EF /* PulseAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimationVC.swift; sourceTree = "<group>"; };
+		BE3415912DDCBA5B002007EF /* PulseAnimationVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PulseAnimationVC.storyboard; sourceTree = "<group>"; };
+		BE3415942DDCC208002007EF /* ArcSpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcSpinnerView.swift; sourceTree = "<group>"; };
+		BE3415972DDCC22C002007EF /* ArcSpinnerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcSpinnerVC.swift; sourceTree = "<group>"; };
+		BE3415992DDCC24D002007EF /* ArcSpinnerVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArcSpinnerVC.storyboard; sourceTree = "<group>"; };
+		BE34159C2DDCC402002007EF /* TailDotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailDotsView.swift; sourceTree = "<group>"; };
+		BE34159F2DDCC541002007EF /* TailDotsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailDotsVC.swift; sourceTree = "<group>"; };
+		BE3415A12DDCC558002007EF /* TailDotsVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TailDotsVC.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BE34155D2DDCAB35002007EF /* Exceptions for "Dont Animation Loading Animation" folder in "Dont Animation Loading Animation" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BE34154A2DDCAB34002007EF /* Dont Animation Loading Animation */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BE34154D2DDCAB34002007EF /* Dont Animation Loading Animation */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BE34155D2DDCAB35002007EF /* Exceptions for "Dont Animation Loading Animation" folder in "Dont Animation Loading Animation" target */,
-			);
-			path = "Dont Animation Loading Animation";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BE3415482DDCAB34002007EF /* Frameworks */ = {
@@ -45,7 +72,7 @@
 		BE3415422DDCAB34002007EF = {
 			isa = PBXGroup;
 			children = (
-				BE34154D2DDCAB34002007EF /* Dont Animation Loading Animation */,
+				BE34156C2DDCAB3B002007EF /* Dont Animation Loading Animation */,
 				BE34154C2DDCAB34002007EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +83,140 @@
 				BE34154B2DDCAB34002007EF /* Dont Animation Loading Animation.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BE34156C2DDCAB3B002007EF /* Dont Animation Loading Animation */ = {
+			isa = PBXGroup;
+			children = (
+				BE3415792DDCACEC002007EF /* System */,
+				BE34157A2DDCAD04002007EF /* View */,
+				BE3415782DDCACDB002007EF /* Controller */,
+				BE3415642DDCAB3B002007EF /* Assets.xcassets */,
+				BE3415652DDCAB3B002007EF /* Info.plist */,
+				BE3415672DDCAB3B002007EF /* LaunchScreen.storyboard */,
+			);
+			path = "Dont Animation Loading Animation";
+			sourceTree = "<group>";
+		};
+		BE3415782DDCACDB002007EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE34159E2DDCC529002007EF /* TailDotsVC */,
+				BE3415962DDCC21D002007EF /* ArcSpinnerVC */,
+				BE34158E2DDCBA32002007EF /* PulseAnimationVC */,
+				BE34157E2DDCAD3F002007EF /* HomeVC */,
+				BE34157D2DDCAD30002007EF /* DotAnimationVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE3415792DDCACEC002007EF /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BE34156A2DDCAB3B002007EF /* SceneDelegate.swift */,
+				BE3415632DDCAB3B002007EF /* AppDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		BE34157A2DDCAD04002007EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE34159B2DDCC3FC002007EF /* TailDotsView */,
+				BE3415932DDCC1FF002007EF /* ArcSpinnerView */,
+				BE3415892DDCB984002007EF /* PulseView */,
+				BE3415882DDCB87B002007EF /* DotLoadingView */,
+				BE34157F2DDCAE31002007EF /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE34157D2DDCAD30002007EF /* DotAnimationVC */ = {
+			isa = PBXGroup;
+			children = (
+				BE3415762DDCACCC002007EF /* DotAnimationVC.swift */,
+				BE34157B2DDCAD29002007EF /* DotAnimationVC.storyboard */,
+			);
+			path = DotAnimationVC;
+			sourceTree = "<group>";
+		};
+		BE34157E2DDCAD3F002007EF /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				BE34156B2DDCAB3B002007EF /* HomeController.swift */,
+				BE3415842DDCB162002007EF /* HomeController.storyboard */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		BE34157F2DDCAE31002007EF /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BE3415802DDCAE4A002007EF /* TableViewCell.swift */,
+				BE3415812DDCAE4A002007EF /* TableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		BE3415882DDCB87B002007EF /* DotLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				BE3415742DDCAB4A002007EF /* DotView.swift */,
+				BE3415862DDCB603002007EF /* DotAnimationView.swift */,
+			);
+			path = DotLoadingView;
+			sourceTree = "<group>";
+		};
+		BE3415892DDCB984002007EF /* PulseView */ = {
+			isa = PBXGroup;
+			children = (
+				BE34158C2DDCB99F002007EF /* PulseContainerView.swift */,
+				BE34158A2DDCB98A002007EF /* PulseView.swift */,
+			);
+			path = PulseView;
+			sourceTree = "<group>";
+		};
+		BE34158E2DDCBA32002007EF /* PulseAnimationVC */ = {
+			isa = PBXGroup;
+			children = (
+				BE34158F2DDCBA4E002007EF /* PulseAnimationVC.swift */,
+				BE3415912DDCBA5B002007EF /* PulseAnimationVC.storyboard */,
+			);
+			path = PulseAnimationVC;
+			sourceTree = "<group>";
+		};
+		BE3415932DDCC1FF002007EF /* ArcSpinnerView */ = {
+			isa = PBXGroup;
+			children = (
+				BE3415942DDCC208002007EF /* ArcSpinnerView.swift */,
+			);
+			path = ArcSpinnerView;
+			sourceTree = "<group>";
+		};
+		BE3415962DDCC21D002007EF /* ArcSpinnerVC */ = {
+			isa = PBXGroup;
+			children = (
+				BE3415972DDCC22C002007EF /* ArcSpinnerVC.swift */,
+				BE3415992DDCC24D002007EF /* ArcSpinnerVC.storyboard */,
+			);
+			path = ArcSpinnerVC;
+			sourceTree = "<group>";
+		};
+		BE34159B2DDCC3FC002007EF /* TailDotsView */ = {
+			isa = PBXGroup;
+			children = (
+				BE34159C2DDCC402002007EF /* TailDotsView.swift */,
+			);
+			path = TailDotsView;
+			sourceTree = "<group>";
+		};
+		BE34159E2DDCC529002007EF /* TailDotsVC */ = {
+			isa = PBXGroup;
+			children = (
+				BE34159F2DDCC541002007EF /* TailDotsVC.swift */,
+				BE3415A12DDCC558002007EF /* TailDotsVC.storyboard */,
+			);
+			path = TailDotsVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +233,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BE34154D2DDCAB34002007EF /* Dont Animation Loading Animation */,
 			);
 			name = "Dont Animation Loading Animation";
 			packageProductDependencies = (
@@ -122,6 +280,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3415922DDCBA5B002007EF /* PulseAnimationVC.storyboard in Resources */,
+				BE3415A22DDCC558002007EF /* TailDotsVC.storyboard in Resources */,
+				BE34157C2DDCAD29002007EF /* DotAnimationVC.storyboard in Resources */,
+				BE3415822DDCAE4A002007EF /* TableViewCell.xib in Resources */,
+				BE3415852DDCB162002007EF /* HomeController.storyboard in Resources */,
+				BE34156D2DDCAB3B002007EF /* Assets.xcassets in Resources */,
+				BE34156F2DDCAB3B002007EF /* LaunchScreen.storyboard in Resources */,
+				BE34159A2DDCC24D002007EF /* ArcSpinnerVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +298,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3415712DDCAB3B002007EF /* AppDelegate.swift in Sources */,
+				BE3415902DDCBA4E002007EF /* PulseAnimationVC.swift in Sources */,
+				BE3415A02DDCC541002007EF /* TailDotsVC.swift in Sources */,
+				BE3415952DDCC209002007EF /* ArcSpinnerView.swift in Sources */,
+				BE3415982DDCC22C002007EF /* ArcSpinnerVC.swift in Sources */,
+				BE34159D2DDCC403002007EF /* TailDotsView.swift in Sources */,
+				BE3415722DDCAB3B002007EF /* SceneDelegate.swift in Sources */,
+				BE3415772DDCACCC002007EF /* DotAnimationVC.swift in Sources */,
+				BE3415832DDCAE4A002007EF /* TableViewCell.swift in Sources */,
+				BE3415752DDCAB4C002007EF /* DotView.swift in Sources */,
+				BE3415732DDCAB3B002007EF /* HomeController.swift in Sources */,
+				BE34158D2DDCB99F002007EF /* PulseContainerView.swift in Sources */,
+				BE34158B2DDCB98B002007EF /* PulseView.swift in Sources */,
+				BE3415872DDCB604002007EF /* DotAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE3415672DDCAB3B002007EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3415662DDCAB3B002007EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE34155F2DDCAB35002007EF /* Debug */ = {
@@ -149,7 +340,7 @@
 				INFOPLIST_FILE = "Dont Animation Loading Animation/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -176,7 +367,7 @@
 				INFOPLIST_FILE = "Dont Animation Loading Animation/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
