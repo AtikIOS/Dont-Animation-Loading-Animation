@@ -18,18 +18,15 @@ class DotAnimationView: UIView {
     var displayLink: CADisplayLink?
 
     func startAnimating(vc: UIViewController) {
-        // আগের dot গুলো সরিয়ে দাও
         dots.forEach { $0.removeFromSuperview() }
         dots.removeAll()
 
-        // আগের animation বন্ধ করো
         displayLink?.invalidate()
         displayLink = nil
 
         self.frame = vc.view.bounds
         self.backgroundColor = .black
 
-        // বারবার addSubview যেন না হয়
         if self.superview == nil {
             vc.view.addSubview(self)
         }
